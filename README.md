@@ -33,10 +33,6 @@ The setup focused on creating IAM users and groups, assigning permissions with p
 - Verified restricted access based on assigned permissions
 - Configured MFA for stronger account protection
 
-## Outcome
-
-The IAM environment was configured to separate access by role, reduce unnecessary permissions, and improve account security through MFA and policy-based control.
-
 ## Access Testing Summary
 
 Access was tested after assigning policies to confirm that each user only had the permissions intended for their role.
@@ -44,6 +40,10 @@ Access was tested after assigning policies to confirm that each user only had th
 The S3 read-only user could view bucket contents but could not upload or delete objects.  
 The limited-access user was restricted from actions outside the assigned policy scope.  
 MFA was also enabled to strengthen account protection.
+
+## Outcome
+
+The IAM environment was configured to separate access by role, reduce unnecessary permissions, and improve account security through MFA and policy-based control.
 
 ## What I Learned
 
